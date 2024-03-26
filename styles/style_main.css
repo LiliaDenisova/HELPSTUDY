@@ -1,0 +1,37 @@
+.header {
+    border: 5px solid rgb(0, 0, 255);
+    background-color: rgb(115, 115, 255);
+    height: 50px;
+}
+
+.top-bar {
+    border: 5px solid yellow;
+    background-color: rgb(255, 255, 131);
+    height: 50px;
+}
+
+.main {
+    border: 5px solid rgb(255, 0, 247);
+    background-color: rgb(255, 131, 251);
+    float: left;
+
+    height: 400;
+    width: 30%;
+}
+
+.right-bar {
+    border: 5px solid rgb(0, 255, 0);
+    background-color: rgb(131, 255, 154);
+    float: left;
+
+    height: 400;
+    width: 30%;
+}
+
+.center {
+    display: flex;
+}
+
+.menu li {
+    float: left;
+}
